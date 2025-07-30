@@ -1,0 +1,69 @@
+﻿@page "/Tickets"
+
+<h1 class="mb-3">Tickets</h1>
+
+@if(tickets == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <a class="btn btn-primary mb-3 me-2" href="/Tickets/Create">Criar Novo ticket</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Categoria</th>
+                <th>Descrição</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in tickets)
+            {
+                <tr>
+                    <td>@ticket.Id</td>
+                    <td>@ticket.Category</td>
+                    <td>@ticket.Description</td>
+                    <td>
+                        @if (ticket.Status.ToString() == "Pendente")
+                        {
+                            <span class="badge rounded-pill text-bg-secondary">@ticket.Status</span>
+                        }
+                        else if (ticket.Status.ToString() == "EmAndamento")
+                        {
+                            <span class="badge rounded-pill text-bg-warning">@ticket.Status</span>
+                        }
+                        else
+                        {
+                            <span class="badge rounded-pill text-bg-success">@ticket.Status</span>
+                        }
+                    </td>
+                    <td style="white-space:nowrap; width:10px">
+                        <a class="btn btn-primary btn-sm" href="/Tickets/Edit/@ticket.Id">Editar</a>
+                        <button class="btn btn-danger btn-sm">Excluir</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    }
+
+@inject HttpClient http
+
+@code {
+    private List<TicketModel>? tickets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true,
+            Converters = { new JsonStringEnumConverter() }
+        };
+
+        tickets = await http.GetFromJsonAsync<List<TicketModel>>("api/ticket", options);
+    }
+}
