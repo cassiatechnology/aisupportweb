@@ -1075,10 +1075,10 @@ C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\refint\AiSupportWeb.dll
 C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\AiSupportWeb.pdb
 C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\ref\AiSupportWeb.dll
 C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\AiSupportWeb.sourcelink.json
-C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.ks03bgj7ez.wasm
-C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.xmfi5d58rh.pdb
-C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.ks03bgj7ez.wasm.gz
-C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.xmfi5d58rh.pdb.gz
-C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\compressed\8d26wrvl6n-ks03bgj7ez.gz
-C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\compressed\97bmd6j6fs-xmfi5d58rh.gz
-C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\compressed\30n2o7nats-1fdgg3m3af.gz
+C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.vrrer8cv36.wasm
+C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.catzrhhwlu.pdb
+C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.vrrer8cv36.wasm.gz
+C:\dev\AiSupportApi\AiSupportWeb\bin\Debug\net9.0\wwwroot\_framework\AiSupportWeb.catzrhhwlu.pdb.gz
+C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\compressed\8d26wrvl6n-vrrer8cv36.gz
+C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\compressed\97bmd6j6fs-catzrhhwlu.gz
+C:\dev\AiSupportApi\AiSupportWeb\obj\Debug\net9.0\compressed\30n2o7nats-vv0sixfr8w.gz

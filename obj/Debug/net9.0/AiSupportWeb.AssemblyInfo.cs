@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AiSupportWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57b5bed4a02995ae405b6799c6d1489dd737d7bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fefcc8af18f851084f126e92e90e96a3bfacb68")]
 [assembly: System.Reflection.AssemblyProductAttribute("AiSupportWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AiSupportWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
